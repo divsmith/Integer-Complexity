@@ -8,7 +8,7 @@ public class Main {
     {
         int lowest = param + 1;
 
-        for (int counter = 2; counter < (param / 2); counter++)
+        for (int counter = 2; counter <= (param / 2); counter++)
         {
             if (param % counter == 0)
             {
