@@ -10,12 +10,12 @@ class MainTest {
 
         private Main main = new Main();
 
-//        @Test
-//        void test_4_works()
-//        {
-//            int result = this.main.test(4);
-//            Assertions.assertEquals(4, result);
-//        }
+        @Test
+        void test_4_works()
+        {
+            int result = this.main.test(4);
+            Assertions.assertEquals(4, result);
+        }
 
         @Test
         void test_12_works()
