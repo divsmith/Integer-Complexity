@@ -24,4 +24,11 @@ class MainTest {
 
             Assertions.assertEquals(7, result);
         }
+
+        @Test
+        void test_prime_number()
+        {
+            int result = this.main.test(13);
+            Assertions.assertEquals(14, result);
+        }
 }
