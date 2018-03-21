@@ -31,4 +31,11 @@ class MainTest {
             int result = this.main.test(13);
             Assertions.assertEquals(14, result);
         }
+
+        @Test
+        void test_12345_works()
+        {
+            int result = this.main.test(12345);
+            Assertions.assertEquals(838, result);
+        }
 }
